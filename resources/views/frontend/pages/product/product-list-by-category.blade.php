@@ -14,7 +14,7 @@
                         <h1>{{$c->title}}</h1>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="{{route('getSite')}}">@lang('getSite')</a></li>
+                                <li class="breadcrumb-item"><a href="{{route('getSite')}}">@lang('getSite')</a> | <a href="{{$c->slug}}">{{$c->title}}</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">{{$c->title}}</li>
                             </ol>
                         </nav>

@@ -23,7 +23,7 @@
         "laravel/ui": "^3.4",
         "mcamara/laravel-localization": "^1.8",
         "mtolhuys/laravel-schematics": "^0.10.3",
-        "unisharp/laravel-filemanager": "dev-master"
+        "unisharp/laravel-filemanager": "^2.6"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -73,7 +73,7 @@
     },
     "config": {
         "github-oauth": {
-            "github.com": "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"
+            "github.com": "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"
         },
         "optimize-autoloader": true,
         "preferred-install": "dist",
